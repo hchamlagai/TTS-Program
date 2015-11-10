@@ -1,0 +1,99 @@
+
+
+p {
+ color: darkorange;
+ font-size: 20px;
+}
+div p {
+ color: slateblue;
+}
+p span {
+ font-size: 10px;
+}
+
+p.location {
+	color: mediumpurple;
+	font-size: 30px;
+}
+
+#nc {
+	background-color: lavender;
+	color: tomato;
+	text-align: right;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited {
+	color: turquoise;
+}
+
+ul {
+	list-style: none;
+}
+
+li:first-child {
+	color: tomato;
+}
+li:last-child {
+	color:cornflowerblue;
+}
+h1::first-letter {
+	font-size: 80px;
+	color: green;
+}
+
+body {
+	background-image: url(http://www.dream-wallpaper.com/free-wallpaper/art-wallpaper/background-color-1-wallpaper/1920x1200/free-wallpaper-5.jpg);
+	background-size: cover;
+}
+
+div {
+	background-color: rgba(255, 255, 255, .5);
+}
+
+div.font-example {
+	font-size: 16px;
+}
+.font-example p {
+	font-size: inherit;
+}
+.font-example .plus-1 {
+	font-size: 1.5em;
+}
+.font-example .plus-2 {
+	font-size: 2em;
+}
+
+h1 {
+	font-family: Georgia, Times New Roman serif;
+}
+
+.borders {
+	height: 200px;
+	width: 200px;
+	background-color: #fff;
+	border: 5px solid violet;
+	/*border-width: 50px;
+	rder-style: solid;
+	border-color: violet; */
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 50px;
+	margin: 0 auto 20px auto ;
+	/*margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto; */
+	box-sizing: border-box; 
+	
+}	
+
+img {
+	width: 100%;
+	border-radius: 20px 0 10%;
+}
+

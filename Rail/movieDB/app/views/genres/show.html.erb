@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @genre.name %>
+</p>
+
+<h3>Moviews in this Genre:</h3>
+	<ui>
+	<% @genre.movies.each do |moviews| %>
+	<% if movie.name.presence %>
+	
+
+
+
+<%= link_to 'Edit', edit_genre_path(@genre) %> |
+<%= link_to 'Back', genres_path %>
